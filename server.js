@@ -19,8 +19,11 @@ app.use(static)
  * Local Server Information
  * Values from .env (environment) file
  *************************/
-const port = process.env.PORT
-const host = process.env.HOST
+// const port = process.env.PORT
+// const host = process.env.HOST
+
+const HOST = "localhost"
+const PORT = 3000
 
 /* ***********************
  * Log statement to confirm server operation
